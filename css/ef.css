@@ -1,5 +1,3 @@
-/*font-family: "Raleway", serif;*/
-
 .navbar-brand, h1, h2, h5{
     font-family: "Raleway", serif;
     font-style: oblique;
@@ -7,6 +5,33 @@
 
 .nav-item, p{
     font-family: "Raleway", serif;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.whatsapp{
+    color: #075e54;
+}
+
+.phone-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.phone-item img {
+    margin-right: 5px;
+}
+
+.phone-item:last-child {
+    margin-bottom: 0;
 }
 
 .hero{
@@ -19,4 +44,12 @@
 
 .testimonios{
     background-color: gray;
+}
+
+.mapa{
+    background-color: #ebe8e4;
+}
+
+html {
+    scroll-padding-top: 80px;
 }
